@@ -9,7 +9,6 @@
         android:orientation="vertical"
         android:padding="16dp">
 
-        <!-- Nome Completo -->
         <EditText
             android:id="@+id/nomeCompletoEt"
             android:layout_width="match_parent"
@@ -17,7 +16,6 @@
             android:hint="@string/nome_completo"
             android:inputType="textPersonName" />
 
-        <!-- E-mail -->
         <EditText
             android:id="@+id/emailEt"
             android:layout_width="match_parent"
@@ -25,14 +23,12 @@
             android:hint="@string/e_mail"
             android:inputType="textEmailAddress" />
 
-        <!-- Receber Atualizações -->
         <CheckBox
             android:id="@+id/receberEmailCb"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/deseja_receber_atualiza_es_por_e_mail" />
 
-        <!-- Telefone -->
         <EditText
             android:id="@+id/telefoneEt"
             android:layout_width="match_parent"
@@ -40,7 +36,6 @@
             android:hint="@string/telefone"
             android:inputType="phone" />
 
-        <!-- Tipo de Telefone -->
         <RadioGroup
             android:id="@+id/tipoTelefoneRg"
             android:layout_width="match_parent"
@@ -60,14 +55,12 @@
                 android:text="@string/residencial" />
         </RadioGroup>
 
-        <!-- Adicionar Telefone Celular -->
         <CheckBox
             android:id="@+id/adicionarCelularCb"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/adicionar_telefone_celular" />
 
-        <!-- Telefone Celular -->
         <EditText
             android:id="@+id/celularEt"
             android:layout_width="match_parent"
@@ -76,7 +69,6 @@
             android:inputType="phone"
             android:visibility="gone" />
 
-        <!-- Sexo -->
         <RadioGroup
             android:id="@+id/sexoRg"
             android:layout_width="match_parent"
@@ -102,7 +94,6 @@
                 android:text="@string/outro" />
         </RadioGroup>
 
-        <!-- Data de Nascimento -->
         <EditText
             android:id="@+id/dataNascimentoEt"
             android:layout_width="match_parent"
@@ -110,14 +101,12 @@
             android:hint="@string/data_de_nascimento"
             android:inputType="date" />
 
-        <!-- Formação -->
         <Spinner
             android:id="@+id/formacaoSp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:entries="@array/formacao_array" />
 
-        <!-- Campos adicionais da Formação (Invisíveis por padrão) -->
         <EditText
             android:id="@+id/anoFormaturaEt"
             android:layout_width="match_parent"
@@ -150,15 +139,13 @@
             android:inputType="text"
             android:visibility="gone" />
 
-        <!-- Vagas de Interesse -->
         <EditText
             android:id="@+id/vagasInteresseEt"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="@string/vagas_de_interesse"
             android:inputType="textMultiLine" />
-
-        <!-- Botões de Salvar e Limpar -->
+        
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
